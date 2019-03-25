@@ -77,6 +77,9 @@ it:
   articles:
     assigned: Voci assegnate
     available: Voci disponibili
+    next: Successivo
+    previous: Precedente
+    article_title: Titolo della voce
     assigned_to: Assegnato a
     character_doc: La somma dei caratteri aggiunti alle voci dagli editori iscritti
       tra le date di inizio e fine
@@ -256,6 +259,8 @@ it:
         Clicca su "Crea il mio corso!" per iniziare a costruire la linea temporale
         per la tua assegnazione Wikipedia.
       role_description: Il tuo ruolo nel corso
+      role_description_options:
+      - Insegnante
       role_description_placeholder: Istruttore, assistente didattico, ecc
       save_cloned_course: Salva nuovo corso
       start_date: Data di inizio
@@ -638,6 +643,7 @@ it:
     bio_placeholder: Aggiungi la tua biografia (opzionale)
     location_placeholder: Aggiungi la tua posizione (opzionale)
     institution_placeholder: Nome dell'istituto (opzionale)
+    image_link_placeholder: Aggiungi collegamento all'immagine (opzionale)
   wiki_edits:
     notify_overdue:
       confirm: Questo posterà un promemoria sulle pagine di discussione di tutti gli

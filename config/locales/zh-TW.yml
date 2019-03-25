@@ -98,6 +98,9 @@ zh-TW:
     article_development: （條目發展）
     assigned: 分配的條目
     available: 尚待分配的條目
+    next: 下一個
+    previous: 上一個
+    article_title: 條目標題
     assigned_to: 分配給
     character_doc: 從開始到結束日，由登記編輯在條目中增加的位元組總和。 (1 中文字=3 位元組)
     cross_wiki_tracking: 以下列出主空間頁面於起始和結束日期期間的編輯。資訊看板從此方案的首頁 wiki 來取出貢獻內容，以及和其它任何有著分配作業或可用條目的
@@ -284,6 +287,8 @@ zh-TW:
       assignment_end_placeholder: YYYY-MM-DD
       assignment_start: 分配作業開始繳交
       assignment_start_placeholder: YYYY-MM-DD
+      cancel_course_clone: 取消課程複製
+      cancel_course_clone_confirm: 您確定要停止複製這個課程嗎？
       checking_for_uniqueness: 正在確認是否有重複的課程。
       choose_clone: 選擇一個課程來複製。
       clone_previous: 複製前一個課程
@@ -315,7 +320,6 @@ zh-TW:
       create_label: 建立新的課程
       create_new: 建立一個新的課程
       create_short: 建立課程
-      create_timeline: 請為您的課程建立時間軸。您可以從時間軸分頁來從頭建置，或是使用分配作業精靈來建立基於 Wiki 教育最佳實踐的自定義時間軸。
       end_date: 結束日期
       end_date_placeholder: YYYY-MM-DD
       expected_number: 預計學生人數
@@ -325,6 +329,9 @@ zh-TW:
       new_or_clone: 您現在可透過分配事項精靈來創建新的課程、如果您擁有來自先前課程的高度自定義時間軸而想重新使用，您可以使用新的日期來複製複本（如果您先前沒有明確自定義您的時間軸，我們建議您先開始一個課程，以便擁有最新版本的分配作業選項。）。您也可以使用複製選項來替您先前設定好的課程創建額外部份。
       no_class_holidays: 我的開課時段沒有遭遇假日
       role_description: 您在課程裡的身份
+      role_description_options:
+      - 導師
+      - 教學助理
       role_description_placeholder: 導師、教學助理、其它
       separate_event_dates: 指定分別的事項起始/結束時間
       separate_event_dates_info: 此方案的活動統計將會基於以上的日期與時間來追蹤，而您也可以指定分別的事項或方案之起始與結束時間（例如：讓參與者能夠知道何時露面或何時聚會結束）。
@@ -535,6 +542,8 @@ zh-TW:
       assignment_end_placeholder: YYYY-MM-DD
       assignment_start: 事項起始
       assignment_start_placeholder: YYYY-MM-DD
+      cancel_course_clone: 取消方案複製
+      cancel_course_clone_confirm: 您確定要停止複製這個方案嗎？
       checking_for_uniqueness: 正在確認是否有重複的方案。
       choose_clone: 選擇一個方案來複製。
       clone_previous: 複製前一個方案
@@ -641,7 +650,7 @@ zh-TW:
     user_ns: 使用者
   recent_activity:
     active_courses: 條目使用於
-    article_title: 文章標題
+    article_title: 條目標題
     datetime: 日期/時間
     did_you_know_eligible: 符合 "您知道嗎" 資格
     image: 圖片
@@ -870,6 +879,7 @@ zh-TW:
     user_no_training_status: 此使用者尚未完成任何培訓模組
     up_to_date_with_training: 最近培訓
     uploads_doc: 上傳到維基共享資源的檔案數量
+    ungreeted: 不歡迎
     username: 使用者名稱
     username_placeholder: 使用者名稱
     useremail_placeholder: 電子郵件
@@ -890,6 +900,7 @@ zh-TW:
     bio_placeholder: 添加您的個人自傳（可選）
     location_placeholder: 添加您的位置（可選）
     institution_placeholder: 機構名稱（可選）
+    image_link_placeholder: 添加連結到圖片（可選）
   wiki_edits:
     notify_overdue:
       confirm: 這將會在所有逾期培訓學生的討論頁上發表通知。您確定要執行嗎？

@@ -121,6 +121,9 @@ fr:
     article_development: (développement d’article)
     assigned: Articles affectés
     available: Articles disponibles
+    next: Suivant
+    previous: Précédent
+    article_title: Titre de l’article
     assigned_to: Assigné à
     character_doc: Le total du nombre de caractères ajoutés aux articles par les éditeurs
       inscrits entre les dates de début et de fin
@@ -354,6 +357,9 @@ fr:
       assignment_end_placeholder: AAAA-MM-JJ
       assignment_start: Début de l’affectation
       assignment_start_placeholder: AAAA-MM-JJ
+      cancel_course_clone: Annuler le clonage du cours
+      cancel_course_clone_confirm: Êtes-vous sûr de vouloir arrêter le clonage de
+        ce cours ?
       checking_for_uniqueness: Ce cours a été vérifié en terme d’unicité.
       choose_clone: Choisir un cours à dupliquer.
       clone_previous: Dupliquer le cours précédent
@@ -403,10 +409,6 @@ fr:
       create_label: Créer un nouveau cours
       create_new: Créer un nouveau cours
       create_short: Créer un cours
-      create_timeline: Veuillez créer un planning pour votre cours. Vous pouvez en
-        construire un à partir de rien depuis l’onglet Planning, ou utiliser l’assistant
-        d’affectation pour créer un planning personnalisé basé sur les meilleures
-        pratiques du wiki Ed.
       end_date: Date de fin
       end_date_placeholder: AAAA-MM-JJ
       expected_number: Nombre d’étudiants attendus
@@ -425,6 +427,9 @@ fr:
         pour un cours que vous avez déjà défini.
       no_class_holidays: Je n’ai pas de congés scolaires
       role_description: Votre rôle dans le cours
+      role_description_options:
+      - Formateur
+      - Assistant éducatif
       role_description_placeholder: Instructeur, assistant enseignant, etc.
       separate_event_dates: Spécifier des heures distinctes de début et de fin de
         l’événement
@@ -699,6 +704,9 @@ fr:
       assignment_end_placeholder: AAAA-MM-JJ
       assignment_start: Début de l’événement
       assignment_start_placeholder: AAAA-MM-JJ
+      cancel_course_clone: Annuler le clonage du programme
+      cancel_course_clone_confirm: Êtes-vous sûr de vouloir arrêter le clonage de
+        ce programme ?
       checking_for_uniqueness: Ce programme a été vérifié pour l’unicité.
       choose_clone: Choisir un programme à dupliquer.
       clone_previous: Dupliquer le programme précédent
@@ -1102,6 +1110,7 @@ fr:
     user_no_training_status: Cet utilisateur n'a terminé aucun des modules de formation.
     up_to_date_with_training: formation à jour
     uploads_doc: Nombre de fichiers téléchargés sur Wikimédia Communs
+    ungreeted: Pas le bienvenu
     username: Nom d’utilisateur
     username_placeholder: Nom d’utilisateur
     useremail_placeholder: Courriel
@@ -1122,6 +1131,7 @@ fr:
     bio_placeholder: Ajouter votre biographie (facultatif)
     location_placeholder: Ajouter votre emplacement (facultatif)
     institution_placeholder: Nom de l’établissement (facultatif)
+    image_link_placeholder: Ajouter le lien vers l’image (facultatif)
   wiki_edits:
     notify_overdue:
       confirm: Cela publiera un rappel sur les pages de discussion de tous les étudiants

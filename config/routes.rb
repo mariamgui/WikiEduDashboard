@@ -34,6 +34,7 @@ Rails.application.routes.draw do
     get 'users/:username' => 'user_profiles#show' , constraints: { username: /.*/ }
     get 'user_stats' => 'user_profiles#stats'
     get 'stats_graphs' => 'user_profiles#stats_graphs'
+    delete 'profile_image' => 'user_profiles#delete_profile_image', as: 'delete_profile_image', constraints: { username: /.*/ }
     get 'update_email_preferences/:username' => 'user_profiles#update_email_preferences', constraints: { username: /.*/ }
     post 'users/update/:username' => 'user_profiles#update' , constraints: { username: /.*/ }
   end
@@ -70,8 +71,10 @@ Rails.application.routes.draw do
       constraints: { course_slug: /.*/ }
   get 'requested_accounts/*course_slug/enable_account_requests' => 'requested_accounts#enable_account_requests',
       constraints: { course_slug: /.*/ }
-  get 'requested_accounts/:course_slug' => 'requested_accounts#index',
+  get 'requested_accounts/:course_slug' => 'requested_accounts#show',
       constraints: { course_slug: /.*/ }
+  get '/requested_accounts' => 'requested_accounts#index'
+  post '/requested_accounts' => 'requested_accounts#create_all_accounts'
 
   # Self-enrollment: joining a course by entering a passcode or visiting a url
   get 'courses/:course_id/enroll/(:passcode)' => 'self_enrollment#enroll_self',

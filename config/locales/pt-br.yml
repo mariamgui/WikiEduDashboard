@@ -119,6 +119,9 @@ pt-br:
     article_development: (desenvolvimento do artigo)
     assigned: Artigos atribuídos
     available: Artigos Disponíveis
+    next: Próximo
+    previous: Anterior
+    article_title: Título do artigo
     assigned_to: Atribuído a
     character_doc: A soma de caracteres adicionados a artigos por editores inscritos
       durante as datas de começo e fim
@@ -347,6 +350,9 @@ pt-br:
       assignment_end_placeholder: AAAA-MM-DD
       assignment_start: Início da tarefa
       assignment_start_placeholder: AAAA-MM-DD
+      cancel_course_clone: Cancelar clone do curso
+      cancel_course_clone_confirm: Tem certeza de que deseja interromper a clonagem
+        deste curso?
       checking_for_uniqueness: Verificando se este curso é único.
       choose_clone: Escolha um curso para duplicar
       clone_previous: Clonar curso anterior
@@ -393,10 +399,6 @@ pt-br:
       create_label: Criar Novo Curso
       create_new: Criar um Novo Curso
       create_short: Criar Curso
-      create_timeline: Por favor, crie uma linha do tempo para o seu curso. Você pode
-        criar um a partir do zero na guia Cronograma ou usar o Assistente de Atribuição
-        para criar uma linha de tempo personalizada com base nas práticas recomendadas
-        do Wiki Ed.
       end_date: Data Final
       end_date_placeholder: AAAA-MM-DD
       expected_number: Número experado de estudantes
@@ -414,6 +416,9 @@ pt-br:
         um curso que já definiu.
       no_class_holidays: Não há férias
       role_description: A sua função no curso
+      role_description_options:
+      - Instrutor
+      - Professor assistente
       role_description_placeholder: Professor, professor assistente, etc
       separate_event_dates: Especifique separadamente os horários iniciais e finais
         do evento
@@ -679,6 +684,9 @@ pt-br:
       assignment_end_placeholder: AAAA-MM-DD
       assignment_start: Início do evento
       assignment_start_placeholder: AAAA-MM-DD
+      cancel_course_clone: Cancelar clone do programa
+      cancel_course_clone_confirm: Tem certeza de que deseja interromper a clonagem
+        deste programa?
       checking_for_uniqueness: Verificando se este curso é único.
       choose_clone: Escolha um programa para clonar.
       clone_previous: Clonar programa anterior
@@ -1076,6 +1084,7 @@ pt-br:
     user_no_training_status: Este usuário não concluiu nenhum módulo de treinamento.
     up_to_date_with_training: em dia com o treinamento
     uploads_doc: Número de pastas enviadas para Wikimedia Commons
+    ungreeted: Não saudados
     username: Nome de usuário
     username_placeholder: Nome de usuário
     useremail_placeholder: E-mail
@@ -1096,6 +1105,7 @@ pt-br:
     bio_placeholder: Adicione sua Biografia (opcional)
     location_placeholder: Adicione a sua localização (opcional)
     institution_placeholder: Nome da instituição (opcional)
+    image_link_placeholder: Adicionar hiperligação à imagem (opcional)
   wiki_edits:
     notify_overdue:
       confirm: Isto irá postar um lembrete nas páginas de discussão de todos os estudantes

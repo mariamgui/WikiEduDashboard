@@ -101,6 +101,9 @@ de:
     article_development: (Artikelentwicklung)
     assigned: Zugeordnete Artikel
     available: Verfügbare Artikel
+    next: Nächste
+    previous: Vorherige
+    article_title: Artikeltitel
     assigned_to: Zuordnung zu
     character_doc: Die Summe der durch eingeschriebene Autoren an Artikeln hinzugefügten
       Zeichen zwischen den Start- und Enddaten.
@@ -334,6 +337,9 @@ de:
       assignment_end_placeholder: JJJJ-MM-TT
       assignment_start: Zuweisungsbeginn
       assignment_start_placeholder: JJJJ-MM-TT
+      cancel_course_clone: Klonen des Kurses abbrechen
+      cancel_course_clone_confirm: Bist du sicher, dass du das Klonen dieses Kurses
+        beenden möchtest?
       checking_for_uniqueness: Dieser Kurs wird auf Eindeutigkeit überprüft.
       choose_clone: Wähle einen zu klonenden Kurs aus.
       clone_previous: Vorherigen Kurs klonen
@@ -381,10 +387,6 @@ de:
       create_label: Neuen Kurs erstellen
       create_new: Einen neuen Kurs erstellen
       create_short: Kurs erstellen
-      create_timeline: Erstelle bitte eine Zeitleiste für deinen Kurs. Du kannst eine
-        vom Zeitleisten-Reiter erstellen oder den Zuweisungsassistenten verwenden,
-        um eine benutzerdefinierte Zeitleiste basierend auf den besten Praktiken von
-        Wiki Ed zu erstellen.
       end_date: Enddatum
       end_date_placeholder: JJJJ-MM-TT
       expected_number: Erwartete Anzahl der Studenten
@@ -403,6 +405,9 @@ de:
         aufgesetzt hast.
       no_class_holidays: Ich habe keine Ferien
       role_description: Deine Rolle im Kurs
+      role_description_options:
+      - Kursleiter
+      - Lehrassistent
       role_description_placeholder: Kursleiter, Lehrassistent etc.
       separate_event_dates: Gib getrennte Ereignisbeginn- und -endzeitpunkte an
       separate_event_dates_info: Aktivitätsstatistiken für dieses Programm werden
@@ -675,6 +680,9 @@ de:
       assignment_end_placeholder: JJJJ-MM-TT
       assignment_start: Ereignisbeginn
       assignment_start_placeholder: JJJJ-MM-TT
+      cancel_course_clone: Klonen des Programms abbrechen
+      cancel_course_clone_confirm: Bist du sicher, dass du das Klonen dieses Programms
+        beenden möchtest?
       checking_for_uniqueness: Dieses Programm wird auf Eindeutigkeit überprüft.
       choose_clone: Wähle ein zu klonendes Programm aus.
       clone_previous: Vorheriges Programm klonen
@@ -1080,6 +1088,7 @@ de:
     user_no_training_status: Dieser Benutzer hat keine Ausbildungsmodule vervollständigt.
     up_to_date_with_training: mit der Ausbildung auf dem Laufenden
     uploads_doc: Anzahl der auf Wikimedia Commons hochgeladenen Dateien
+    ungreeted: Nicht begrüßt
     username: Benutzername
     username_placeholder: Benutzername
     useremail_placeholder: E-Mail-Adresse
@@ -1100,6 +1109,7 @@ de:
     bio_placeholder: Ergänze deine Biografie (optional)
     location_placeholder: Ergänze deinen Standort (optional)
     institution_placeholder: Name der Einrichtung (optional)
+    image_link_placeholder: Link zum Bild hinzufügen (optional)
   wiki_edits:
     notify_overdue:
       confirm: Dies sendet eine Erinnerung an die Diskussionsseiten aller Studenten,

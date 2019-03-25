@@ -214,7 +214,7 @@ const DatePicker = createReactClass({
   },
 
   moment(...args) {
-    return this.props.showTime ? moment(...args) : moment(...args).utc();
+    return this.props.showTime ? moment(...args) : moment(...args).utc().local();
   },
 
   showCurrentDate() {

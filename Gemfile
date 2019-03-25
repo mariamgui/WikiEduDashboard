@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.5.0'
 
 ### Basic Framework
-gem 'rails', '5.2.2'
+gem 'rails', '5.2.2.1'
 gem 'jbuilder' # DSL for building JSON view template
 gem 'haml-rails' # HTML template language, used instead of ERB
 gem 'bootsnap', require: false # Makes rails boot faster via caching
@@ -119,7 +119,6 @@ group :test do
   gem 'capybara-screenshot'
   gem 'chromedriver-helper' # Capypara feature specs driven by headless Chrome
   gem 'selenium-webdriver' # Capypara feature specs driven by headless Chrome
-  gem 'database_cleaner'
   gem 'webmock'
   gem 'vcr' # Saves external web requests and replays them in tests
   gem 'simplecov', require: false

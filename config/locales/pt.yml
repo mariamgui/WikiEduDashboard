@@ -112,6 +112,9 @@ pt:
     article_development: (desenvolvimento do artigo)
     assigned: Artigos atribuídos
     available: Artigos disponíveis
+    next: Seguinte
+    previous: Anterior
+    article_title: Título do artigo
     assigned_to: Atribuído a
     character_doc: A soma do número de carateres adicionados a artigos por editores
       inscritos, entre as datas de começo e fim
@@ -202,8 +205,7 @@ pt:
     reviewers: Revisor(es)
     review_other: Atribuir uma revisão
     review_self: Rever um artigo
-    review_tooltip: Isto é para manter o registo de quais artigos planeia revisar
-      ou opinar.
+    review_tooltip: Isto é para controlar que artigos planeia rever ou comentar.
     select: Selecionar
   blocks:
     milestones:
@@ -342,8 +344,11 @@ pt:
       assignment_end_placeholder: AAAA-MM-DD
       assignment_start: Início do trabalho
       assignment_start_placeholder: AAAA-MM-DD
+      cancel_course_clone: Cancelar clone do curso
+      cancel_course_clone_confirm: Tem a certeza de que deseja interromper a clonagem
+        deste curso?
       checking_for_uniqueness: Está a ser verificado se este curso é único.
-      choose_clone: Escolha um curso para duplicar.
+      choose_clone: Escolha um curso para clonar.
       clone_previous: Clonar curso anterior
       clone_this: Clonar este curso
       cloned_course_calendar_instructions: Selecione datas para adicioná-las ou removê-las
@@ -389,9 +394,6 @@ pt:
       create_label: Criar novo curso
       create_new: Criar um novo curso
       create_short: Criar curso
-      create_timeline: Crie um calendário para o seu curso, por favor. Pode criar
-        um de raiz no separador Calendário, ou usar o assistente de criação de trabalhos
-        para criar um calendário personalizado baseado nas boas práticas da Wiki Educação.
       end_date: Data de fim
       end_date_placeholder: AAAA-MM-DD
       expected_number: Número estimado de estudantes
@@ -408,6 +410,9 @@ pt:
         definido.
       no_class_holidays: Não tenho férias escolares
       role_description: A sua função no curso
+      role_description_options:
+      - Professor
+      - Professor assistente
       role_description_placeholder: Professor, professor assistente, etc
       separate_event_dates: Especifique separadamente os horários iniciais e finais
         do evento
@@ -677,6 +682,9 @@ pt:
       assignment_end_placeholder: AAAA-MM-DD
       assignment_start: Início do evento
       assignment_start_placeholder: AAAA-MM-DD
+      cancel_course_clone: Cancelar clone do programa
+      cancel_course_clone_confirm: Tem a certeza de que deseja interromper a clonagem
+        deste programa?
       checking_for_uniqueness: A verificar se este curso é único.
       choose_clone: Escolha um programa para clonar.
       clone_previous: Clonar programa anterior
@@ -879,11 +887,11 @@ pt:
       ga: Algumas edições realizadas pelos especialistas do tema ou estilo são úteis;
         A comparação com um artigo destacado existente num tópico semelhante pode
         destacar as áreas onde o conteúdo é fraco ou ausente.
-      bplus: Pode haver melhorias através das contribuições de especialistas para
-        avaliar onde a cobertura ainda está ausente, e também pelas ilustrações, antecedentes
-        históricos e outras referências. Considere revisar por pares ou indicar a
-        nomeação do artigo para bom. Se o artigo ainda não estiver completo, agora
-        pode ser a hora.
+      bplus: Pode ser melhorado com a opinião de especialistas sobre as áreas que
+        ainda não estão cobertas, e também com ilustrações, antecedentes históricos
+        e outras referências. Considere usar a revisão por pares ou nomear o artigo
+        para o estado bom. Se o artigo ainda não estiver devidamente formatado, faça-o
+        agora.
       b: Alguns aspetos do conteúdo e estilo precisam ser abordados. Pode ser necessário
         ter conhecimentos especializados. A inclusão de materiais de suporte deve
         ser considerada, na prática, e o artigo deve ser verificado, em conformidade
@@ -1042,7 +1050,7 @@ pt:
     characters_added_userspace: Caracteres acrescentados (utilizador)
     characters_added_draftspace: Caracteres acrescentados (rascunho)
     my_assigned: 'Atribuição:'
-    my_reviewing: 'A revisar:'
+    my_reviewing: 'A rever:'
     name: Nome
     none: Não há participantes.
     no_articles: Não há artigos
@@ -1057,7 +1065,7 @@ pt:
       Visitas: %{views}'
     revisions_doc: O número de edições feitas por este editor nos últimos 7 dias
     reviewers: Revisor(es)
-    reviewing: A revisar
+    reviewing: Em revisão
     total_uploads: Total de carregamentos
     training_complete:
       one: está em dia com a formação
@@ -1077,6 +1085,7 @@ pt:
     user_no_training_status: Este utilizador não completou nenhum módulo de formação.
     up_to_date_with_training: em dia com a formação
     uploads_doc: Número de carregamentos de ficheiros na wiki Wikimedia Commons
+    ungreeted: Não saudados
     username: Nome de utilizador
     username_placeholder: Nome de utilizador
     useremail_placeholder: Correio eletrónico
@@ -1097,6 +1106,7 @@ pt:
     bio_placeholder: Adicione a sua biografia (opcional)
     location_placeholder: Adicione a sua localização (opcional)
     institution_placeholder: Nome da instituição (opcional)
+    image_link_placeholder: Adicionar hiperligação à imagem (opcional)
   wiki_edits:
     notify_overdue:
       confirm: Isto irá postar uma anotação nas páginas de discussão de todos os alunos
